@@ -1,0 +1,71 @@
+.desk01_v1{
+	height:375px;
+	margin-top:50px;
+}
+
+.desk01_v2{
+	height:375px;
+	margin-top:50px;
+}
+
+.dxcdeskicon.desk01 {
+	
+}
+
+.dxcdeskicon svg{
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+}
+
+.dxcdeskicon svg{
+	height:375px;
+	width: 750px;
+}
+
+.desk01_v1 .dxcdeskicon svg #maintitle{
+	font-family: 'Open Sans', sans-serif;
+	fill:#ffffff;
+	font-size: 18px;
+	text-anchor:middle;
+}
+
+.desk01_v1 .dxcdeskicon svg .subtitle{
+	font-family: 'Open Sans', sans-serif;
+	fill:#ffffff;
+	font-size: 9px;
+	text-anchor:middle;
+}
+
+.desk01_v1 .dxcdeskicon svg #buttontext{
+	font-family: 'Open Sans', sans-serif;
+	fill:#ffffff;
+	font-size: 9px;
+	text-anchor:middle;
+}
+
+.desk01_v2 .dxcdeskicon svg #maintitle{
+	font-family: 'Open Sans', sans-serif;
+	fill:#777;
+	font-size: 18px;
+	text-anchor:middle;
+}
+
+.desk01_v2 .dxcdeskicon svg .subtitle{
+	font-family: 'Open Sans', sans-serif;
+	fill:#777;
+	font-size: 9px;
+	text-anchor:middle;
+}
+
+.desk01_v2 .dxcdeskicon svg #buttontext{
+	font-family: 'Open Sans', sans-serif;
+	fill:#777;
+	font-size: 9px;
+	text-anchor:middle;
+}
+
+	/* This is here in case they somehow get deleted
+		<text id="maintitle" transform="matrix(1 0 0 1 217.6429 74.6181)" >x</text>
+		<text id="subtitle" transform="matrix(1 0 0 1 217.6429 89.1181)"  >x</text>
+	*/
