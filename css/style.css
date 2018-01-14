@@ -59,13 +59,44 @@ color:#fff ;
 
 
 .navbar li a, .navbar .navbar-brand {
-    font-family: 'work_sansregular',sans-serif;
-    color: #C4321D !important;
+    font-family: 'work_sansbold',sans-serif;
+    color: #757575 !important;
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
     color: #fff !important;
 
 }
+
+
+/*MYARTWORK*/
+
+
+.icon1
+{
+  display:inline-block;
+  background-image: url(../images/illustration.png);
+  width:195px;
+  height:100px;
+}
+
+.icon2 {
+  display:inline-block;
+  background-image: url(../images/graphicdesign.png);
+  width:195px;
+  height:100px;
+}
+
+.icon3 {
+  display:inline-block;
+  background-image: url(../images/internet.png);
+  width:195px;
+  height:100px;
+}
+
+
+
+
+
 
 
