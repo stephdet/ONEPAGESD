@@ -1,9 +1,9 @@
-var titleText = "Animated SVG Banners";
-var subtitleText = "100% scaleable graphics that";
-var subtitleText2 = "only animate on scroll";
-var buttonText = "READ MORE";
-var readMoreURL = ["#", "#"];
-//Example: 
+// var titleText = "Animated SVG Banners";
+// var subtitleText = "100% scaleable graphics that";
+// var subtitleText2 = "only animate on scroll";
+// var buttonText = "READ MORE";
+// var readMoreURL = ["#", "#"];
+//Example:
 //var readMoreURL = ["http://aprendagames.com","http://aprendagames.com"];
 
 
@@ -14,7 +14,7 @@ var readMoreURL = ["#", "#"];
 
 
 var deskIconNames = [
-	"desk01", 
+	"desk01",
 	"desk02"
 ];
 //var deskIconNames = ["chrome"];
@@ -61,11 +61,11 @@ window['desk01'] = function(index, f, thisIcon)
 		.from(f.select("#picture03").node, .4, {scaleX:0, scaleY:0, transformOrigin:"bottom left", ease:easeVar.easeOut}, "-=.2")
 		.from(f.select("#picture05").node, .4, {scale:0, transformOrigin:"top left", ease:easeVar.easeOut}, "-=.2")
 		.from(f.select("#picture04").node, .4, {scale:0, transformOrigin:"top right", ease:easeVar.easeOut}, "-=.2")
-		
+
 	var bookAnimation = new TimelineLite()
 		.from(f.select("#bookondesk").node, .2, {y:10, alpha:0, ease:easeVar.easeOut})
-		.to(f.select("#bookondesk").node, .2, {y:10, ease:Quad.easeIn})	
-		.from(f.select("#bookmark").node, .2, {scaleY:0, transformOrigin:"top", ease:easeVar.easeOut})			
+		.to(f.select("#bookondesk").node, .2, {y:10, ease:Quad.easeIn})
+		.from(f.select("#bookmark").node, .2, {scaleY:0, transformOrigin:"top", ease:easeVar.easeOut})
 
 
 	var bookshelfAnimation = new TimelineLite()
@@ -82,11 +82,11 @@ window['desk01'] = function(index, f, thisIcon)
 		.to(f.select("#leaningbook").node, .6, {rotation:37, transformOrigin:"bottom right", ease:Circ.easeIn})
 
 	var coffeeAnimation = new TimelineLite()
-		.from(f.select("#coffee01").node, .4, {alpha:0, y:-10, ease:easeVar.easeOut})	
-		.from(f.select("#coffeesteam").node, 3, {scale:.3,transformOrigin:"bottom 5%", alpha:0, ease:easeVar.easeOut})	
+		.from(f.select("#coffee01").node, .4, {alpha:0, y:-10, ease:easeVar.easeOut})
+		.from(f.select("#coffeesteam").node, 3, {scale:.3,transformOrigin:"bottom 5%", alpha:0, ease:easeVar.easeOut})
 
 	var imacAnimation = new TimelineLite()
-		.from(f.select("#imac").node, .8, {alpha:0, y:-20, ease:easeVar.easeOut})	
+		.from(f.select("#imac").node, .8, {alpha:0, y:-20, ease:easeVar.easeOut})
 
 
 
@@ -128,23 +128,23 @@ window['desk01'] = function(index, f, thisIcon)
 	    });
 	}
 
-	
+
 
 
 	//TweenMax.set(video, {opacity:0.2});
-	
-		
-	
+
+
+
 
 
 	//animate in animation
 	var tl = new TimelineLite({
-		onStart:animationComplete, 
-		onStartParams:[index, true], 
-		onReverseComplete:animationComplete, 
+		onStart:animationComplete,
+		onStartParams:[index, true],
+		onReverseComplete:animationComplete,
 		onReverseCompleteParams:[index, false]
 	})
-		
+
 		.add(deskAnimation)
 		.add(textAnimations, .3)
 		.add(bookAnimation, .5)
@@ -156,14 +156,14 @@ window['desk01'] = function(index, f, thisIcon)
 		.add(picsAnimation, 1.1)
 		.add(imacAnimation, 1.2)
 		.timeScale(speed);
-		
+
 	tls[index] = tl;
 
-	
 
-	
+
+
 	var tlRollover = new TimelineLite();
-		
+
 	tlsRollover[index] = tlRollover;
 }
 
@@ -203,7 +203,7 @@ window['desk02'] = function(index, f, thisIcon)
 		.from(f.select("#numbers").node, .3, {alpha:0, ease:easeVar.easeIn}, "-=.2")
 
 	var imacAnimation = new TimelineLite()
-		.from(f.select("#laptop").node, .8, {alpha:0, y:-20, ease:easeVar.easeOut})	
+		.from(f.select("#laptop").node, .8, {alpha:0, y:-20, ease:easeVar.easeOut})
 
 	var speaker01Animation = new TimelineLite()
 		.from(f.select("#speaker1").node, .3, {alpha:0, y:-20, ease:Quad.easeOut})
@@ -232,7 +232,7 @@ window['desk02'] = function(index, f, thisIcon)
 		.from(f.select("#book3").node, .3, {y:-10, alpha:0, ease:Quad.easeOut}, "-=.15")
 		.from(f.select("#ipad").node, .3, {y:-10, alpha:0, ease:Quad.easeOut}, "-=.1")
 
-	
+
 
 	var windowAnimation = new TimelineLite()
 		//.from(f.select("#sky").node, .3, {alpha:0, ease:Quad.easeOut})
@@ -285,9 +285,9 @@ window['desk02'] = function(index, f, thisIcon)
 
 
 	var tl = new TimelineLite({
-		onStart:animationComplete, 
-		onStartParams:[index, true], 
-		onReverseComplete:animationComplete, 
+		onStart:animationComplete,
+		onStartParams:[index, true],
+		onReverseComplete:animationComplete,
 		onReverseCompleteParams:[index, false]
 	})
 		.add(deskAnimation)

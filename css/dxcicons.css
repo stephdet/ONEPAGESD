@@ -1,7 +1,8 @@
 .desk01_v1{
 	height:375px;
-	margin-top:50px;
-}
+	background-color: red!important;
+/*	margin-top:50px;
+*/}
 
 .desk01_v2{
 	height:375px;
@@ -9,7 +10,8 @@
 }
 
 .dxcdeskicon.desk01 {
-	
+width:100%;
+height:375px;
 }
 
 .dxcdeskicon svg{
@@ -20,7 +22,6 @@
 
 .dxcdeskicon svg{
 	height:375px;
-	width: 750px;
 }
 
 .desk01_v1 .dxcdeskicon svg #maintitle{

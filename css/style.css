@@ -1,0 +1,71 @@
+@import url(type.css);
+
+*,*:before,*:after
+{
+  margin :0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+font-family: 'Lato', sans-serif;
+/*font-size: 1rem;
+*/}
+
+h1,h2
+{
+  font-family: 'work_sansmedium',sans-serif;
+
+}
+
+
+ h3, h4
+{
+  font-family: 'work_sansextralight',sans-serif;
+}
+
+
+
+
+/*CUSTOM BOOSTRAP*/
+
+.jumbotron
+{
+  background-color: #F27300;
+  color:#fff;
+  border-radius: 0;
+  padding: 100px 25px;
+}
+
+/*MAIN NAV*/
+
+#myNavbar li a
+{
+color:#fff ;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #F27300;
+    z-index: 9999;
+    border: 0;
+    box-shadow: 0px 0px 2px 4px #C4321D;
+    font-size: 1.2em !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 0.2em;
+    border-radius: 0;
+}
+
+
+.navbar li a, .navbar .navbar-brand {
+    font-family: 'work_sansregular',sans-serif;
+    color: #C4321D !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #fff !important;
+
+}
+
+

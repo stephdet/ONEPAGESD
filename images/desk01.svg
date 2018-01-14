@@ -2,8 +2,8 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="desk01" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="500px" height="250px" viewBox="0 0 500 250" enable-background="new 0 0 500 250" xml:space="preserve">
-<rect id="background" x="0" fill="#86B1B9" width="500" height="250"/>
+	 width="1000px" height="375px" viewBox="0 0 1000 375" enable-background="new 0 0 1000 375" xml:space="preserve">
+<rect id="background" x="0" fill="#86B1B9" width="1000" height="375"/>
 <g id="imac">
 	<polygon fill="#A7A9AC" points="258.7,185.6 230,185.6 227.8,212 261.6,212 	"/>
 	<rect x="221.9" y="210.9" fill="#A7A9AC" width="45.7" height="5.5"/>
@@ -231,71 +231,71 @@
 		</g>
 	</g>
 	<g id="ruler">
-		
+
 			<rect x="135.648" y="202.348" transform="matrix(0.2156 0.9765 -0.9765 0.2156 324.9227 7.0095)" fill="#F2D34F" width="44.902" height="6.8"/>
-		
+
 			<rect x="155.33" y="182.612" transform="matrix(0.2149 0.9766 -0.9766 0.2149 301.4264 -7.8255)" fill="#58595B" width="0.5" height="1.9"/>
-		
+
 			<rect x="156.245" y="184.379" transform="matrix(0.2149 0.9766 -0.9766 0.2149 303.3342 -7.763)" fill="#58595B" width="0.5" height="0.8"/>
-		
+
 			<rect x="156.62" y="185.881" transform="matrix(0.2167 0.9762 -0.9762 0.2167 304.7259 -7.2322)" fill="#58595B" width="0.5" height="0.8"/>
-		
+
 			<rect x="156.963" y="187.443" transform="matrix(0.2149 0.9766 -0.9766 0.2149 306.8888 -6.0587)" fill="#58595B" width="0.5" height="0.799"/>
-		
+
 			<rect x="157.263" y="188.762" transform="matrix(0.2149 0.9766 -0.9766 0.2149 308.4136 -5.3157)" fill="#58595B" width="0.5" height="0.8"/>
-		
+
 			<rect x="157.052" y="189.87" transform="matrix(0.2167 0.9762 -0.9762 0.2167 309.4959 -4.0992)" fill="#58595B" width="0.5" height="1.9"/>
-		
+
 			<rect x="157.929" y="191.636" transform="matrix(0.2167 0.9762 -0.9762 0.2167 311.3698 -4.0022)" fill="#58595B" width="0.5" height="0.799"/>
-		
+
 			<rect x="158.314" y="193.14" transform="matrix(0.2167 0.9762 -0.9762 0.2167 313.1398 -3.2003)" fill="#58595B" width="0.5" height="0.8"/>
-		
+
 			<rect x="158.475" y="194.682" transform="matrix(0.2167 0.9762 -0.9762 0.2167 314.7709 -2.1493)" fill="#58595B" width="0.5" height="0.799"/>
-		
+
 			<rect x="158.877" y="195.942" transform="matrix(0.2149 0.9766 -0.9766 0.2149 316.693 -1.2552)" fill="#58595B" width="0.5" height="0.8"/>
-		
+
 			<rect x="158.613" y="197.156" transform="matrix(0.2149 0.9766 -0.9766 0.2149 318.2081 0.3883)" fill="#58595B" width="0.5" height="1.9"/>
-		
+
 			<rect x="159.523" y="198.914" transform="matrix(0.2149 0.9766 -0.9766 0.2149 320.1025 0.4479)" fill="#58595B" width="0.5" height="0.8"/>
-		
+
 			<rect x="159.768" y="200.329" transform="matrix(0.2167 0.9762 -0.9762 0.2167 321.2964 1.0107)" fill="#58595B" width="0.5" height="0.8"/>
-		
+
 			<rect x="160.126" y="201.788" transform="matrix(0.2149 0.9766 -0.9766 0.2149 323.3828 2.1146)" fill="#58595B" width="0.5" height="0.8"/>
-		
+
 			<rect x="160.477" y="203.241" transform="matrix(0.2149 0.9766 -0.9766 0.2149 325.0773 2.9131)" fill="#58595B" width="0.5" height="0.8"/>
-		
+
 			<rect x="160.329" y="204.273" transform="matrix(0.2149 0.9766 -0.9766 0.2149 326.5065 4.2992)" fill="#58595B" width="0.5" height="1.9"/>
-		
+
 			<rect x="161.133" y="206.133" transform="matrix(0.2167 0.9762 -0.9762 0.2167 328.0311 4.2243)" fill="#58595B" width="0.5" height="0.799"/>
-		
+
 			<rect x="161.34" y="207.533" transform="matrix(0.2167 0.9762 -0.9762 0.2167 329.56 5.1196)" fill="#58595B" width="0.5" height="0.8"/>
-		
+
 			<rect x="161.824" y="209.057" transform="matrix(0.2149 0.9766 -0.9766 0.2149 331.8164 6.164)" fill="#58595B" width="0.5" height="0.8"/>
-		
+
 			<rect x="161.994" y="210.563" transform="matrix(0.2167 0.9762 -0.9762 0.2167 333.0307 6.8544)" fill="#58595B" width="0.5" height="0.8"/>
-		
+
 			<rect x="161.839" y="211.461" transform="matrix(0.2167 0.9762 -0.9762 0.2167 334.3233 8.1399)" fill="#58595B" width="0.5" height="1.9"/>
-		
+
 			<rect x="162.636" y="213.465" transform="matrix(0.213 0.9771 -0.9771 0.213 337.1484 9.1644)" fill="#58595B" width="0.5" height="0.8"/>
-		
+
 			<rect x="163.031" y="214.741" transform="matrix(0.2126 0.9771 -0.9771 0.2126 338.7916 9.8549)" fill="#58595B" width="0.501" height="0.8"/>
-		
+
 			<rect x="163.285" y="216.291" transform="matrix(0.2167 0.9762 -0.9762 0.2167 339.6337 10.0798)" fill="#58595B" width="0.5" height="0.799"/>
-		
+
 			<rect x="163.624" y="217.725" transform="matrix(0.2149 0.9766 -0.9766 0.2149 341.6945 11.2114)" fill="#58595B" width="0.5" height="0.8"/>
-		
+
 			<rect x="163.466" y="218.732" transform="matrix(0.2149 0.9766 -0.9766 0.2149 343.0902 12.5885)" fill="#58595B" width="0.5" height="1.899"/>
-		
+
 			<rect x="164.25" y="220.575" transform="matrix(0.2149 0.9766 -0.9766 0.2149 344.9691 12.8374)" fill="#58595B" width="0.5" height="0.8"/>
-		
+
 			<rect x="164.638" y="222.091" transform="matrix(0.2167 0.9762 -0.9762 0.2167 346.3564 13.3026)" fill="#58595B" width="0.5" height="0.8"/>
-		
+
 			<rect x="164.835" y="223.565" transform="matrix(0.2167 0.9762 -0.9762 0.2167 347.9487 14.2643)" fill="#58595B" width="0.5" height="0.799"/>
-		
+
 			<rect x="165.298" y="224.897" transform="matrix(0.2149 0.9766 -0.9766 0.2149 350.0131 15.2076)" fill="#58595B" width="0.5" height="0.8"/>
-		
+
 			<rect x="165.061" y="225.929" transform="matrix(0.2149 0.9766 -0.9766 0.2149 351.3723 16.6818)" fill="#58595B" width="0.5" height="1.9"/>
-		
+
 			<rect x="154.689" y="183.721" transform="matrix(0.9765 -0.2157 0.2157 0.9765 -40.7868 38.5832)" fill="#F0C100" width="3.4" height="44.901"/>
 	</g>
 	<g id="pencilred">
@@ -303,13 +303,13 @@
 			<path fill="#F1F2F2" d="M167.3,217.4l-0.4,3.1c-0.1,0.7,0.101,1.2,0.5,1.3l1.801,0.2c0.399,0.1,0.699-0.4,0.8-1.1l0.399-3.101
 				L167.3,217.4z"/>
 			<g>
-				
+
 					<rect x="168.9" y="195.807" transform="matrix(-0.9907 -0.1364 0.1364 -0.9907 311.1829 433.7361)" fill="#ED6F5D" width="3.1" height="20.802"/>
-				
+
 					<rect x="170.3" y="195.908" transform="matrix(-0.9906 -0.1367 0.1367 -0.9906 312.3876 434.0717)" fill="#E94B35" width="1.6" height="20.801"/>
 			</g>
 			<polygon fill="#D1D3D4" points="167.1,217.9 170.4,218.4 170.5,216.6 170.6,216.3 167.5,215.9 167.4,216.2 			"/>
-			
+
 				<rect x="167.1" y="216.407" transform="matrix(-0.9907 -0.1361 0.1361 -0.9907 306.4315 455.8661)" fill="#5C6D84" width="3.401" height="2.1"/>
 			<polygon fill="#F1F2F2" points="172.5,191 173.4,195.9 170.3,195.5 			"/>
 			<polygon fill="#414042" points="172.5,191 172,191.9 172.7,192 			"/>
@@ -320,13 +320,13 @@
 			<path fill="#F1F2F2" d="M167.1,218.4l0.3,3.199c0.101,0.7,0.4,1.2,0.801,1.101l1.8-0.2c0.399,0,0.6-0.6,0.6-1.3l-0.3-3.2
 				L167.1,218.4z"/>
 			<g>
-				
+
 					<rect x="166.103" y="196.302" transform="matrix(-0.9962 0.087 -0.087 -0.9962 352.6451 398.0429)" fill="#6A707D" width="3.1" height="20.8"/>
-				
+
 					<rect x="167.609" y="196.311" transform="matrix(-0.9963 0.0861 -0.0861 -0.9963 353.9848 398.1597)" fill="#454C5D" width="1.6" height="20.8"/>
 			</g>
 			<polygon fill="#D1D3D4" points="167.1,219 170.4,218.7 170.1,216.9 170.1,216.6 167,216.9 167,217.1 			"/>
-			
+
 				<rect x="166.906" y="217.008" transform="matrix(-0.9962 0.0873 -0.0873 -0.9962 355.609 420.559)" fill="#5C6D84" width="3.4" height="2.1"/>
 			<polygon fill="#F1F2F2" points="166.3,191.4 168.3,196.1 165.2,196.4 			"/>
 			<polygon fill="#414042" points="166.3,191.4 166.1,192.4 166.7,192.4 			"/>
@@ -367,7 +367,7 @@
 	<rect id="book5" x="394.4" y="86.8" fill="#F17046" width="5.4" height="29.9"/>
 	<rect id="book3" x="377.9" y="82.1" fill="#ECF0F1" width="6.4" height="34.6"/>
 	<g id="leaningbook">
-		
+
 			<rect x="326.506" y="79.202" transform="matrix(1 0.0057 -0.0057 1 0.5588 -1.8713)" fill="#F17046" width="9.5" height="37.401"/>
 		<rect x="329.106" y="90.302" transform="matrix(1 0.0059 -0.0059 1 0.6051 -1.9383)" fill="#ECF0F1" width="4" height="24.001"/>
 		<circle fill="#ECF0F1" cx="331.1" cy="86.9" r="2.7"/>
