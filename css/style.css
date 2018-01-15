@@ -16,7 +16,11 @@ font-family: 'Lato', sans-serif;
 h1,h2
 {
   font-family: 'work_sansmedium',sans-serif;
+}
 
+h2 {
+  text-transform: uppercase;
+  margin-bottom: 1em;
 }
 
 
@@ -38,7 +42,62 @@ h1,h2
   padding: 100px 25px;
 }
 
+
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+  background-color:#F27300!important;
+  border-color: #F27300!important;
+  border-radius: 0;
+}
+
+#galery {
+  margin-top:4em;
+}
+
+.thumbnail {
+    padding-left: 20px;
+/*    padding: 0 0 15px 0;
+*/    border: none;
+    border-radius: 0;
+}
+
+.thumbnail img {
+    max-width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*IDENTITY*/
+.mylogo
+{
+background-image: url(../images/mylogo.png);
+display:block;
+height: 80px;
+width: 80px;
+position: absolute;
+top:10px;
+left: 10px;
+}
+
+a span h1
+{
+  line-height: 0;
+  visibility: hidden;
+}
+
+
 /*MAIN NAV*/
+
+
 
 #myNavbar li a
 {
@@ -60,11 +119,15 @@ color:#fff ;
 
 .navbar li a, .navbar .navbar-brand {
     font-family: 'work_sansbold',sans-serif;
-    color: #757575 !important;
+    color: #fff !important;
+    font-size: 1.3em;
+    padding-left: 1em;
+
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #fff !important;
+    color: #C4321D!important;
+
 
 }
 
