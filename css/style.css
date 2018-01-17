@@ -10,18 +10,21 @@
 body
 {
 font-family: 'Lato', sans-serif;
-/*font-size: 1rem;
-*/}
+font-size: 1.2em;
+}
 
 h1,h2
 {
   font-family: 'work_sansmedium',sans-serif;
 }
 
-h2 {
+h2
+{
   text-transform: uppercase;
   margin-bottom: 1em;
 }
+
+
 
 
  h3, h4
@@ -45,12 +48,21 @@ h2 {
 
 /*CUSTOM BOOSTRAP*/
 
+.row
+ {
+  margin:0!important;
+  padding:0!important;;
+}
+
+
+
 .jumbotron
 {
   background-color: #F27300;
   color:#fff;
   border-radius: 0;
   padding: 100px 25px;
+  margin-bottom:0!important;
 }
 
 
@@ -60,14 +72,21 @@ h2 {
   border-radius: 0;
 }
 
-#galery,#bio
+#portfolio,#about
 {
   margin-top:4em;
 }
 
-#bio
+#about
 {
   background-color:#CCC;
+  padding:0;
+}
+
+#contact
+{
+    background-color: #F27300;
+
 }
 
 
@@ -103,7 +122,6 @@ h2 {
   width: 250 px;
   height: 240 px;
 }
-
 
 
 
@@ -190,6 +208,14 @@ color:#fff ;
   height:100px;
 }
 
+#svgart
+{
+  background-image: url(../images/desk01.svg);
+  background-repeat: none;
+/*  background-position: center;
+*/  max-width:100%;
+  height:375px;
+}
 
 
 
