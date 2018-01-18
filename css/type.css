@@ -50,7 +50,9 @@
 @font-face {
     font-family: 'work_sansextralight';
     src: url('font/worksans-extralight-webfont.eot');
-    src: url('font/worksans-extralight-webfont.eot?#iefix') format('embedded-opentype'),
+    src: url('font/worksans-extralight-webfont.eot?#ies-serif;
+font-size: 1.;
+fix') format('embedded-opentype'),
          url('font/worksans-extralight-webfont.woff2') format('woff2'),
          url('font/worksans-extralight-webfont.woff') format('woff'),
          url('font/worksans-extralight-webfont.ttf') format('truetype'),

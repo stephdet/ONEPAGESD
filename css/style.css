@@ -10,18 +10,20 @@
 body
 {
 font-family: 'Lato', sans-serif;
-font-size: 1.2em;
+font-size: 1.;
 }
 
 h1,h2
 {
-  font-family: 'work_sansmedium',sans-serif;
+  font-family: 'work_sansbold',sans-serif;
 }
+
 
 h2
 {
   text-transform: uppercase;
   margin-bottom: 1em;
+  color:#4C4C4C;
 }
 
 
@@ -35,14 +37,15 @@ h2
 
 .maintitle
 {
-  margin:0;
+  font-family: 'work_sansregular';
+  margin-top:1.2em;
   padding:0;
 }
 
 
 .mainbook
 {
-    padding-top: 2em;
+    padding-top: 2.2em;
     line-height: 1.5em;
 }
 
@@ -136,10 +139,15 @@ h2
   display:block;
   height: 80px;
   width: 80px;
-  position: absolute;
-  top:10px;
-  left: 10px;
+  float: left;
+
 }
+
+
+
+
+
+
 
 a span h1
 {
@@ -218,7 +226,31 @@ color:#fff ;
 }
 
 
+/*FOOTER*/
+
+.liencontact
+{
+  display:flex;
+  flex-direction: : row;
+  height:4em;
+}
+
+.liencontact
+ p
+{
+  display:inline;
+  padding: 0.5em;
+  line-height: 1.5em;
+  font-size: 1.2em;
+  color:#fff;
+  justify-content:space-between;
+}
+
+.template
+{
+  padding-left:20%;
+}
 
 
 
-
+/*MEDIA QUERIES*/
