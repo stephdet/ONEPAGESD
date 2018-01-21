@@ -10,7 +10,7 @@
 body
 {
 font-family: 'Lato', sans-serif;
-font-size: 1.;
+font-size: 1.4em;
 }
 
 h1,h2
@@ -18,16 +18,12 @@ h1,h2
   font-family: 'work_sansbold',sans-serif;
 }
 
-
 h2
 {
   text-transform: uppercase;
   margin-bottom: 1em;
   color:#4C4C4C;
 }
-
-
-
 
  h3, h4
 {
@@ -37,37 +33,37 @@ h2
 
 .maintitle
 {
-  font-family: 'work_sansregular';
-  margin-top:1.2em;
-  padding:0;
+  font-family: 'work_sansregular',sans-serif;
+  clear:left;
+  padding-left:4em;
 }
-
 
 .mainbook
 {
     padding-top: 2.2em;
+    padding-bottom: 2.2em;
     line-height: 1.5em;
 }
 
 /*CUSTOM BOOSTRAP*/
 
-.row
- {
-  margin:0!important;
-  padding:0!important;;
+
+/*full liqid*/
+.container-fluid,.container-fluid text-center, .container-fluid text-center bg-grey
+{
+  padding-left: 0!important;
+  padding-right:  0!important;
 }
-
-
 
 .jumbotron
 {
   background-color: #F27300;
   color:#fff;
   border-radius: 0;
-  padding: 100px 25px;
-  margin-bottom:0!important;
-}
+/*  padding: 100px 25px;
+*/  margin-bottom:0!important;
 
+}
 
 .btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
   background-color:#F27300!important;
@@ -80,7 +76,7 @@ h2
   margin-top:4em;
 }
 
-.grey
+#about
 {
   background-color:#CCC;
   padding:0;
@@ -88,8 +84,7 @@ h2
 
 #contact
 {
-    background-color: #F27300;
-
+  background-color: #F27300;
 }
 
 
@@ -115,9 +110,7 @@ h2
 {
   padding-top:1em;
   padding-bottom:2em;
-
 }
-
 
 .round
 {
@@ -140,14 +133,7 @@ h2
   height: 80px;
   width: 80px;
   float: left;
-
 }
-
-
-
-
-
-
 
 a span h1
 {
@@ -220,33 +206,58 @@ color:#fff ;
 {
   background-image: url(../images/desk01.svg);
   background-repeat: none;
-/*  background-position: center;
-*/  max-width:100%;
+  max-width:100%;
   height:375px;
+  padding: 0;
+  margin:0;
 }
 
 
-<<<<<<< HEAD
-/* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { ... }
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { ... }
 
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { ... }
-=======
+
+
+
 /*FOOTER*/
+
+
+
+/*MEDIA QUERIES*/
+
+@media (min-width: @screen-sm-min) {
+  .maintitle{
+    clear:both;
+margin-top: 0;
+  }
+
+#svgart {
+  background-image: url(../images/desk01.svg);
+  background-position: container;
+  max-width:100%;
+  height:auto;
+  padding: -200px;
+  margin:0;
+}
+
+.liencontact {
+    display:flex;
+    flex-direction: column;
+}
+
+
+ }
+
+
 
 .liencontact
 {
   display:flex;
-  flex-direction: : row;
+  flex-direction: row;
   height:4em;
+  padding-left: 1em;
 }
 
-.liencontact
- p
+.liencontact p
 {
   display:inline;
   padding: 0.5em;
@@ -256,12 +267,21 @@ color:#fff ;
   justify-content:space-between;
 }
 
-.template
+.coding
 {
-  padding-left:20%;
+  display:block;
+  text-decoration: none;
+  width:46px;
+  height:46px;
+  padding-bottom:1em;
+  padding-left: 1em;
 }
->>>>>>> 4ebd392171ed10778164c14f6b383b908a58f963
 
 
+.coding img
+{
+  max-width: 100%;
+  height:auto;
+}
 
-/*MEDIA QUERIES*/
+
