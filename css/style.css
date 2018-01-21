@@ -204,12 +204,14 @@ color:#fff ;
 
 #svgart
 {
-  background-image: url(../images/desk01.svg);
-  background-repeat: none;
+  display:block;
   max-width:100%;
   height:375px;
   padding: 0;
   margin:0;
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
 
 
